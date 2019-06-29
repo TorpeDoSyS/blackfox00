@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "2" 
+var prefix = "1" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
@@ -283,10 +283,10 @@ ${prefix}queue ⇏ ♠لمعرفة قآئمة التشغيل❗
 
 
 client.on('ready', () => {
-client.user.setGame('Music II 2Play ','https://www.twitch.tv/kemo355');
+client.user.setGame('Music II 1Play BY:TorpeDoSyS ','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
-By MR_Phantom
+By TorpeDoSyS
 `);
 
 });
